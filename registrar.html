@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Vale.Web</title>
-</head>
+    <meta charset="UTF-8">
+    <title></title> 
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+   <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+
+</head>  
 <body>
-<form method="post">
-    <input type="text" required="">
-    <input type="password" required="">
-    <input type="number" required="">
-    <input type="email" required="">
-    <input type="submit" required="">
-    <input type="button">
-    <h1>Hola Puto</h1>
+    
+    <header>  
+        <nav class="nav-2">
+          <ul class="nav__ul">
+                <li  class="nav__li"><i class="fas fa-home"></i><a href="index.html">inicio</a></li>
+            <li  class="nav__li"><i class="fas fa-user-graduate"></i><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li  class="nav__li"><i class="fas fa-user-alt"></i><a href="micuenta.html">Mi Cuenta</a></li>
+          </ul>
+
+ <form class="formulario">
+    
+    <h1>Registrate</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="Nombre Completo">
+         
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="text" placeholder="Correo Electronico">
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" placeholder="Contraseña">
+         
+         </div>
+         <input type="submit" value="Registrate" class="button">
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿Ya tienes una cuenta?<a class="link" href="login.html">Iniciar Sesion</a></p>
+     </div>
+    </form>
 </body>
 </html>
